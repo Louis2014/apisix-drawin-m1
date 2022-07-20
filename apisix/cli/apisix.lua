@@ -17,7 +17,7 @@
 local pkg_cpath_org = package.cpath
 local pkg_path_org = package.path
 
--- apisix 安装目录,本地开发修改为本地项目地址
+-- apisix源码路径,本地开发修改为本地项目地址
 -- local apisix_home = "/usr/local/apisix"
 local apisix_home = "/Users/louis/Documents/idea_workspace/apisix"
 local pkg_cpath = apisix_home .. "/deps/lib64/lua/5.1/?.so;"
